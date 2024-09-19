@@ -3,7 +3,6 @@
 *, html {
     margin: 0;
     padding: 0;
-    /* border: 1px solid red; */
 }
 body {
     position: relative;
@@ -46,8 +45,6 @@ nav img {
 .register-section {
     background: radial-gradient(circle at top, rgba(41, 48, 13, .1), rgba(7, 22, 41, .7)), url('./images/Object.png');
     background-size: cover;
-    /* background-size: contain; */
-    background-position: center;
     background-repeat: no-repeat;
     position: relative;
     height: 100vh;
@@ -243,10 +240,6 @@ nav img {
     /* color: rgba(7, 22, 41, .5); */
     color: #07162980;
 }
-/* .part_2_tutorials .type-of-smile {
-    width: 255px;
-    height: 154px;
-} */
 
 .reviewer-phillip {
     display: flex;
@@ -397,6 +390,8 @@ nav img {
     font-family: 'Source Sans Pro Regular', sans-serif;
     line-height: 24px;
 }
+
+/* FOOTER SECTION */
 
 footer {
     height: 25vh;
