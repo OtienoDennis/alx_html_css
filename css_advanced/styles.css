@@ -279,3 +279,163 @@ nav img {
 .star-rating div:last-child{
     color: #d8d8d8;
 }
+
+/* FREE MEMBERSHIP SECTION */
+
+.membership-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #071629;
+    height: 49vh;
+}
+
+.membership-section h2 {
+    color: #fff;
+    font-family: 'Source Sans Pro Light', sans-serif;
+    font-size: 32px;
+    
+}
+
+.membership-section h2 span {
+    color:#C271FF;
+}
+
+.membership-information {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.smile-image {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: column;
+    width: 257px;
+    height: 153px;
+}
+
+.smile-image img {
+    width: 43.67px;
+    height: 35.35px;
+}
+
+.smile-image h3 {
+    color: #fff;
+    margin-top: 26.62px;
+    font-size: 18px;
+    font-family: 'Source Sans Pro SemiBold', sans-serif;
+}
+
+.smile-image p {
+    color: #fff;
+    margin-top: 13px;
+    font-size: 14px;
+    font-family: 'Source Sans Pro Regular', sans-serif;
+}
+
+.membership-section button {
+    font-size: 14px;
+    font-family: 'Source Sans Pro SemiBold', sans-serif;
+    padding-left: 20.5px;
+    padding-right: 20.5px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-color: #C271FF;
+    color: #fff;
+    border-radius: 22px;
+
+}
+
+/* FAQ SECTION */
+.faq-section {
+    height: 100vh;
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.faq-section h2 {
+    color: #071629;
+    font-size: 60px;
+    font-family: 'Source Sans Pro Light', sans-serif;
+    font-weight: lighter;
+}
+
+.faq-main-grid {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+}
+
+.faq-subgrid {
+    width: 350px;
+}
+
+.faq-work {
+    margin-bottom: 30px;
+}
+
+.faq-work h3 {
+    font-size: 16px;
+    color: #071629;
+    font-family: 'Source Sans Pro Bold', sans-serif;
+}
+
+.last {
+    margin-top: 74px;
+}
+
+.faq-subgrid div:last-child, .faq-subgrid div:nth-child(2){
+    color: #07162980;
+    font-size: 14px;
+    font-family: 'Source Sans Pro Regular', sans-serif;
+    line-height: 24px;
+}
+
+footer {
+    height: 25vh;
+    background-color: #071629;
+}
+
+footer section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+footer section div:first-child {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+footer section div div {
+    color: #fff;
+    display: flex;
+    gap: 20px;
+    margin-right:200px;
+}
+
+i {
+    font-size: 30px;
+}
+
+footer section p {
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Source Sans Pro Regular', sans-serif;
+}
+
+
+footer section img {
+    margin-left: 200px;
+}
