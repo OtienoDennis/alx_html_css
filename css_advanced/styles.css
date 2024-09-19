@@ -198,4 +198,84 @@ nav img {
 
 .part_2_tutorials {
     height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.part_2_tutorials h2 {
+    font-size: 32px;
+    font-family: 'Source Sans Pro Mixed', sans-serif;
+}
+
+.part_2_tutorials h2 span {
+    color: #C271FF;
+}
+.smile-tutorials {
+    display: flex;
+    margin-top: 75px;
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+
+.play-button {
+    position: absolute;
+    left: 50%;
+    top: 45px;
+    transform: translateX(-50%);
+}
+
+.smile-container {
+    width: 255px;
+    position: relative;
+}
+
+.smile-container h3 {
+    margin-bottom: 7.6px;
+    margin-top: 18px;
+    font-family: 'Source Sans Pro Bold', sans-serif;
+    font-size: 16px;
+}
+
+.smile-container h3 + p {
+    /* color: rgba(7, 22, 41, .5); */
+    color: #07162980;
+}
+/* .part_2_tutorials .type-of-smile {
+    width: 255px;
+    height: 154px;
+} */
+
+.reviewer-phillip {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    margin-top: 15.4px;
+    margin-bottom: 15px;
+}
+
+.reviewer-phillip h4 {
+    color: #C271FF;
+    font-size: 14px;
+    font-family: 'Source Sans Pro SemiBold', sans-serif;
+}
+
+.phillip-massey {
+    width: 30px;
+}
+
+.rate-time-container {
+    display: flex;
+    justify-content: space-between;
+    color: #C271FF;
+}
+
+.star-rating {
+    display: flex;
+}
+
+.star-rating div:last-child{
+    color: #d8d8d8;
 }
