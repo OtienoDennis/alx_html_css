@@ -33,8 +33,8 @@
     /* border: 1px solid red; */
 }
 
-/* DESKTOP */
-
+/*###DESKTOP###*/
+/* HEADER SECTION */
 header {
     background: url('./images/headphones_hero_1.jpg');
     background-size: cover;
@@ -57,6 +57,10 @@ nav {
     width: 80vw;
 }
 
+nav .menu-icon {
+    display: none;
+}
+
 nav ul {
     display: flex;
     gap: 53px;
@@ -64,7 +68,6 @@ nav ul {
 
 nav ul li {
     list-style-type: none;
-    gap: 53px;
 }
 
 nav ul li a {
@@ -94,17 +97,20 @@ header .section-two-header p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .header-title h1 {
     font-size: 32px;
     font-weight: 700;
+    text-align: center;
 }
 
 .header-title h2 {
     font-size: 16px;
     font-weight: 700;
     line-height: 20.11px;
+    text-align: center;
 }
 
 button {
@@ -119,16 +125,90 @@ button:hover, button:active {
     opacity: 0.9;
 }
 
-
-/* MOBILE */
-
+/*####TABLET######*/
 
 
+@media screen and (min-width: 768px) and (max-width: 1024px)  {
+
+    /* HEADER SECTION */
+    header {
+        height: 80vh;
+        gap: 30vh;
+    }
+    
+    nav {
+        margin-top: 29px;
+        width: 85vw;
+    }
+
+    nav ul {
+        gap: 35px;
+    }
+
+    .header-title h1 {
+        line-height: 40.22px;
+    }
+
+    button {
+        font-size: 20px;
+    }
+}
 
 
 
+/*###MOBILE###*/
+@media screen and (max-width: 480px) {
+    /* HEADER SECTION */
+    header {
+        background-position:35%;
+        height: 100vh;
+        gap: 30vh;
+    }
+    nav {
+        margin-top: 29px;
+        width: 100vw;
+        justify-content: flex-start;
+        gap: 66px;
+    }
 
-/* TABLET */
+    nav .menu-icon {
+        display: none;
+    }
+
+    nav ul {
+        display: none;
+        
+    }
+    nav .menu-icon {
+        display: block;
+    }
+    nav .logo-image {
+        width: 237px;
+    }
+
+    header .section-two-header p {
+        width: 335px;
+    }
+
+
+    button {
+        color: #fff;
+        background-color: #ff6565;
+        border-radius: 24px;
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    button:hover, button:active {
+        opacity: 0.9;
+    }
+
+
+    
+}
+
+
+
 
 
 
